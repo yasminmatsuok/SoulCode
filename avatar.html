@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Avatar - SoulCode</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="header">
+    <nav class="nav">
+      <div class="nav-logo">
+        <span>Soul</span>Code
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="avatar.html">Avatar</a></li>
+        <li><a href="missoes.html">Missões</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="integrantes.html">Integrantes</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="page-hero">
+      <div class="container">
+        <h1>Seu <span class="highlight">Avatar Inteligente</span></h1>
+        <p>Um assistente personalizado que aprende com você e te guia em cada missão</p>
+      </div>
+    </section>
+
+    
+    <section class="avatar-section">
+      <div class="container">
+        <div class="avatar-grid">
+
+          
+          <div class="avatar-display">
+            <div class="avatar-circle">
+              🐟
+            </div>
+            <h2 class="avatar-name">Soul</h2>
+            <p class="avatar-status">● Online</p>
+            <div class="avatar-stats">
+              <div class="avatar-stat">
+                <h3>Nível 3</h3>
+                <p>Explorador</p>
+              </div>
+              <div class="avatar-stat">
+                <h3>450 pts</h3>
+                <p>Pontos</p>
+              </div>
+              <div class="avatar-stat">
+                <h3>5</h3>
+                <p>Missões</p>
+              </div>
+            </div>
+          </div>
+
+          
+          <div class="chat-container">
+            <div class="chat-header">
+              <span>🐟 Soul — Avatar Inteligente</span>
+            </div>
+            <div class="chat-messages" id="chatMessages">
+              <div class="chat-message avatar-message">
+                <p>Olá! Eu sou o Soul, seu avatar inteligente! 🌱 Como posso te ajudar hoje?</p>
+              </div>
+              <div class="chat-message avatar-message">
+                <p>Você tem <strong>3 missões pendentes</strong>. Quer ver quais são?</p>
+              </div>
+            </div>
+            <div class="chat-suggestions">
+              <button class="suggestion-btn" onclick="sendSuggestion('Ver minhas missões')">Ver minhas missões</button>
+              <button class="suggestion-btn" onclick="sendSuggestion('Quantos pontos tenho?')">Quantos pontos tenho?</button>
+              <button class="suggestion-btn" onclick="sendSuggestion('Dicas sustentáveis')">Dicas sustentáveis</button>
+            </div>
+            <div class="chat-input-area">
+              <input type="text" id="chatInput" placeholder="Digite sua mensagem...">
+              <button class="chat-send-btn" id="chatSendBtn">Enviar</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    
+    <section class="features-section">
+      <div class="container">
+        <h2>O que o <span class="highlight">Soul</span> pode fazer?</h2>
+        <p class="section-subtitle">Seu avatar está sempre pronto para te ajudar</p>
+        <div class="features-grid">
+          <div class="feature-item">
+            <div class="feature-icon">🎯</div>
+            <h3>Sugerir Missões</h3>
+            <p>O Soul analisa seu perfil e sugere missões sustentáveis personalizadas para você.</p>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon">📊</div>
+            <h3>Acompanhar Progresso</h3>
+            <p>Monitora suas ações e mostra seu evolução em tempo real.</p>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon">💡</div>
+            <h3>Dicas Sustentáveis</h3>
+            <p>Oferece dicas personalizadas baseadas no seu comportamento.</p>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon">📝</div>
+            <h3>Criar Publicações</h3>
+            <p>Gera conteúdo automaticamente para compartilhar suas conquistas.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 SoulCode — FIAP Challenge</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
