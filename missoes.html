@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Missões - SoulCode</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="header">
+    <nav class="nav">
+      <div class="nav-logo">
+        <span>Soul</span>Code
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="avatar.html">Avatar</a></li>
+        <li><a href="missoes.html">Missões</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="integrantes.html">Integrantes</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="page-hero">
+      <div class="container">
+        <h1>Missões <span class="highlight">Sustentáveis</span></h1>
+        <p>Complete missões, acumule pontos e gere impacto positivo no planeta</p>
+      </div>
+    </section>
+
+    <!-- PROGRESSO DO USUÁRIO -->
+    <section class="progress-section">
+      <div class="container">
+        <div class="progress-grid">
+          <div class="progress-card">
+            <h3>450</h3>
+            <p>Pontos Acumulados</p>
+          </div>
+          <div class="progress-card">
+            <h3>5</h3>
+            <p>Missões Completas</p>
+          </div>
+          <div class="progress-card">
+            <h3>3</h3>
+            <p>Missões Pendentes</p>
+          </div>
+          <div class="progress-card">
+            <h3>Nível 3</h3>
+            <p>Explorador</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MISSÕES -->
+    <section class="missions-section">
+      <div class="container">
+        <h2>Missões <span class="highlight">Disponíveis</span></h2>
+        <p class="section-subtitle">Escolha uma missão e comece a fazer a diferença</p>
+
+        <div class="missions-filter">
+          <button class="filter-btn active" data-filter="todas">Todas</button>
+          <button class="filter-btn" data-filter="facil">Fácil</button>
+          <button class="filter-btn" data-filter="medio">Médio</button>
+          <button class="filter-btn" data-filter="dificil">Difícil</button>
+        </div>
+
+        <div class="missions-grid" id="missionsGrid">
+
+          <div class="mission-card" data-difficulty="facil">
+            <div class="mission-header">
+              <span class="mission-icon">🚌</span>
+              <span class="mission-badge facil">Fácil</span>
+            </div>
+            <h3>Use Transporte Público</h3>
+            <p>Utilize o transporte público por 5 dias seguidos e registre suas viagens.</p>
+            <div class="mission-footer">
+              <span class="mission-points">+50 pts</span>
+              <button class="btn-mission">Iniciar</button>
+            </div>
+          </div>
+
+          <div class="mission-card" data-difficulty="facil">
+            <div class="mission-header">
+              <span class="mission-icon">♻️</span>
+              <span class="mission-badge facil">Fácil</span>
+            </div>
+            <h3>Recicle seu Lixo</h3>
+            <p>Separe o lixo corretamente por uma semana e tire uma foto como prova.</p>
+            <div class="mission-footer">
+              <span class="mission-points">+30 pts</span>
+              <button class="btn-mission">Iniciar</button>
+            </div>
+          </div>
+
+          <div class="mission-card" data-difficulty="medio">
+            <div class="mission-header">
+              <span class="mission-icon">💡</span>
+              <span class="mission-badge medio">Médio</span>
+            </div>
+            <h3>Economize Energia</h3>
+            <p>Reduza o consumo de energia em 20% comparado ao mês anterior.</p>
+            <div class="mission-footer">
+              <span class="mission-points">+80 pts</span>
+              <button class="btn-mission">Iniciar</button>
+            </div>
+          </div>
+
+          <div class="mission-card" data-difficulty="medio">
+            <div class="mission-header">
+              <span class="mission-icon">🌱</span>
+              <span class="mission-badge medio">Médio</span>
+            </div>
+            <h3>Plante uma Muda</h3>
+            <p>Plante uma muda de árvore ou planta e documente o processo.</p>
+            <div class="mission-footer">
+              <span class="mission-points">+100 pts</span>
+              <button class="btn-mission">Iniciar</button>
+            </div>
+          </div>
+
+          <div class="mission-card" data-difficulty="dificil">
+            <div class="mission-header">
+              <span class="mission-icon">🚲</span>
+              <span class="mission-badge dificil">Difícil</span>
+            </div>
+            <h3>30 Dias sem Carro</h3>
+            <p>Passe 30 dias utilizando apenas transporte público, bicicleta ou caminhada.</p>
+            <div class="mission-footer">
+              <span class="mission-points">+200 pts</span>
+              <button class="btn-mission">Iniciar</button>
+            </div>
+          </div>
+
+          <div class="mission-card" data-difficulty="dificil">
+            <div class="mission-header">
+              <span class="mission-icon">☀️</span>
+              <span class="mission-badge dificil">Difícil</span>
+            </div>
+            <h3>Energia Solar</h3>
+            <p>Instale um painel solar ou utilize energia renovável por 30 dias.</p>
+            <div class="mission-footer">
+              <span class="mission-points">+300 pts</span>
+              <button class="btn-mission">Iniciar</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 SoulCode — FIAP Challenge</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
