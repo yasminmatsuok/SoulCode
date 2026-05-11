@@ -1169,3 +1169,10 @@ img { max-width: 100%; }
   .about-stats { grid-template-columns: 1fr 1fr; }
   .cta-buttons { flex-direction: column; align-items: center; }
 }
+.team-role {
+  color: var(--color-primary);
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-top: 0.3rem;
+  margin-bottom: 1rem;
+}
