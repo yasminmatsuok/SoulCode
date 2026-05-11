@@ -1173,5 +1173,6 @@ img { max-width: 100%; }
   color: var(--color-primary);
   font-size: 0.8rem;
   font-weight: 600;
+  margin-top: 0.3rem;
   margin-bottom: 1rem;
 }
