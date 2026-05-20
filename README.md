@@ -59,4 +59,4 @@ Nossa solução implementa um **Avatar Inteligente** capaz de interagir com o us
 ## 📞 Contato
 
 📧 soulcode@fiap.com.br  
-📍 FIAP — Barueri, São Paulo
+📍 FIAP — Paulista, São Paulo
