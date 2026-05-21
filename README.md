@@ -42,11 +42,11 @@ Nossa solução implementa um **Avatar Inteligente** capaz de interagir com o us
 
 | Nome | RM | Turma | GitHub | LinkedIn |
 |------|-----|-------|--------|----------|
-| Yasmin de Oliveira Matsuok | RM573083 | 1TDS | [GitHub](#) | [LinkedIn](#) |
-| Murilo Gomes Santiago Carnaval | RM573067 | 1TDS | [GitHub](#) | [LinkedIn](#) |
-| Davi Trindade Ribeiro | RM571336 | 1TDS | [GitHub](#) | [LinkedIn](#) |
-| Yasmin Cappi Santos | RM571926 | 1TDS | [GitHub](#) | [LinkedIn](#) |
-| Maria Vitoria Candida Carvalho | RM570850 | 1TDS | [GitHub](#) | [LinkedIn](#) |
+| Yasmin de Oliveira Matsuok | RM573083 | 1TDSPI | [GitHub](https://github.com/yasminmatsuok) | [LinkedIn](https://www.linkedin.com/in/yasmin-matsuok/) |
+| Murilo Gomes Santiago Carnaval | RM573067 | 1TDSPW | [GitHub](https://github.com/murilossanttiago) | [LinkedIn](https://www.linkedin.com/in/murilo-gomes-santiago/) |
+| Davi Trindade Ribeiro | RM571336 | 1TDSPW | [GitHub](https://github.com/davitrindadee) | [LinkedIn](https://www.linkedin.com/in/davi-trindade-b64a48378/) |
+| Yasmin Cappi Santos | RM571926 | 1TDSPW | [GitHub](https://github.com/yasmincappi) | [LinkedIn](https://www.linkedin.com/in/yasmincappi/) |
+| Maria Vitoria Candida Carvalho | RM570850 | 1TDSPI | [GitHub](https://github.com/mariav1110) | [LinkedIn](https://www.linkedin.com/in/maria-vitoriac/) |
 
 ---
 
